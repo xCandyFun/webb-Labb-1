@@ -1,0 +1,28 @@
+{
+  "result": [
+    {
+      "name": "Call of Duty: Modern Warfare II",
+      "marks": {
+        "Pris": "200kr",
+        "Utgivningsdatum": "2009-11-12",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=oZcsEQPFs_Q\">COD: MW2</a>"
+      }
+    },
+    {
+      "name": "Team Fortress 2",
+      "marks": {
+        "Pris": "0kr",
+        "Utgivningsdatum": "2007-10-10",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=eQ8duKs2Plw\">TF2</a>"
+      }
+    },
+    {
+      "name": "Borderlands 2",
+      "marks": {
+        "Pris": "300kr",
+        "Utgivningsdatum": "2012-09-21",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=5TW0wJTFLiw\">BL2</a>"
+      }
+    }
+  ]
+}

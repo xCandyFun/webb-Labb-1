@@ -1,0 +1,28 @@
+{
+  "result": [
+    {
+      "name": "The Witcher 3: Wild hunt",
+      "marks": {
+        "Pris": "300kr",
+        "Utgivningsdatum": "2015-05-18",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=c0i88t0Kacs\">TW3:WH</a>"
+      }
+    },
+    {
+      "name": "Elden Ring",
+      "marks": {
+        "Pris": "600kr",
+        "Utgivningsdatum": "2022-02-25",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=K_03kFqWfqs\">ER</a>"
+      }
+    },
+    {
+      "name": "Divinity: Original Sin 2",
+      "marks": {
+        "Pris": "300kr",
+        "Utgivningsdatum": "2017-09-14",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=vhM9bC4zZBE\">DOS2</a>"
+      }
+    }
+  ]
+}

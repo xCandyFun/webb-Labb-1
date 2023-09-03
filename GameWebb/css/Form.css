@@ -1,0 +1,42 @@
+body{
+    background-color: #F2B435;
+}
+.banner {
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > div {
+    padding-left: 5em;
+    padding-right: 100px;
+    padding-top: 25px;
+    width: 5px;
+    margin: 2px;
+    line-height: 75px;
+    font-size: 20px;
+}
+div{
+    display: flex;
+}
+
+form{
+    padding-left: 42.5%;
+    padding-top: 50px;
+}
+
+select{
+    width: 160px;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+}
+div#need{
+    padding-bottom: 5px;
+}
+a{
+    padding-left: 15px;
+}

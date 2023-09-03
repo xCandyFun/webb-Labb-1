@@ -1,0 +1,28 @@
+{
+  "result": [
+    {
+      "name": "Warhammer 40,000: Dawn Of War",
+      "marks": {
+        "Pris": "130kr",
+        "Utgivningsdatum": "2006-01-01",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=gBgXH7eyRo4\">WH40K:DOW</a>"
+      }
+    },
+    {
+      "name": "Age of Empires II HD",
+      "marks": {
+        "Pris": "200kr",
+        "Utgivningsdatum": "2013-04-10",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=QGAh6IwahqE\">AOE2HD</a>"
+      }
+    },
+    {
+      "name": "StarCraft 2",
+      "marks": {
+        "Pris": "0kr",
+        "Utgivningsdatum": "2010-07-27",
+        "Youtube": "<a href=\"https://www.youtube.com/watch?v=VSGmPpidDvo\">SC2</a>"
+      }
+    }
+  ]
+}

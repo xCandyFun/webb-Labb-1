@@ -3,8 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="css/Form.css">
+    <script src="js/Form.js"></script>
 </head>
 <body>
+<section>
+    <div class="banner">
+        <div> <a href="FPS.html">FPS</a> </div>
+        <div><a href="RPG.html">RPG</a></div>
+        <div><a href="RTS.html">RTS</a></div>
+        <div><a href="Form.html">From</a></div>
+        <div><a href="Index.html">Startsida</a></div>
+    </div>
 
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Namn:</label>
+                        <input id="fname" type="text" name="Namn" placeholder="Ditt namn" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ename">Email:</label>
+                        <input id="ename" type="email" placeholder="Din email" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="selc">Genre</label>
+                        <select id="selc" name="country" onchange="Genre(this)" required>
+                            <option value="">Välj en</option>
+                            <option value="FPS">FPS</option>
+                            <option value="RPG">RPG</option>
+                            <option value="RTS">RTS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="ifYes" style="display: none;">
+                            <label for="game">Game</label>
+                            <select id="game"  name="country" required>
+                                <option value="">Välj en</option>
+                                <option value="COD:MW2">Call of Duty: MW2</option>
+                                <option value="TF2">Team Fortress 2</option>
+                                <option value="BL2">Borderlands 2</option>
+                            </select><br />
+                        </div>
+                        <div id="ifNo" style="display: none;">
+                            <label for="games">Game</label>
+                            <select id="games"  name="country" required>
+                                <option value="">Välj en</option>
+                                <option value="TW3:WH">The witcher 3: Wild hunt</option>
+                                <option value="ER">Elden Ring</option>
+                                <option value="DOS2">Divinity: Original Sin 2</option>
+                            </select><br />
+                        </div>
+                        <div id="ifY" style="display: none;">
+                            <label for="gm">Game</label>
+                            <select id="gm"  name="country" required>
+                                <option value="">Välj en</option>
+                                <option value="WH40K:DOW">Warhammer 40k:DOW</option>
+                                <option value="AOE2HD">Age of Empires II HD</option>
+                                <option value="SC2">StarCraft 2</option>
+                            </select><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div>Har du spelat något av spelen. Vilken?</div>
+                        <label for="textA"></label>
+                        <textarea id="textA"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="hej()" id="Submit" value="Send">Send</button>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</section>
 </body>
 </html>
