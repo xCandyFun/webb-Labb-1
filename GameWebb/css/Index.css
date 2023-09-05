@@ -1,8 +1,31 @@
 body{
     background-color: #FC6D38;
 }
-p{
-    font-family: 'Times New Roman', sans-serif;
+
+a{
+    padding-left: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #EDAB15;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+.button:hover,
+.button:focus {
+    background-color: #c2c7c7;
+    border-color: #7aa8b7;
 }
 
 .image {
@@ -85,4 +108,7 @@ p{
     margin: 2px;
     line-height: 75px;
     font-size: 125%;
+}
+ol{
+    width: max-content;
 }

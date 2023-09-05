@@ -4,6 +4,11 @@ body{
 p{
     font-family: 'Times New Roman', sans-serif;
 }
+
+h1{
+    text-align: center;
+}
+
 .banner {
     color: black;
     height: 300px;
@@ -52,8 +57,32 @@ p{
     flex: 1 10%;
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #FECE2B;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+.button:hover,
+.button:focus {
+    background-color: #c2c7c7;
+    border-color: #7aa8b7;
+}
+
 .main {
     text-align: left;
+}
+
+
+ol {
+    text-size-adjust: auto;
+    list-style-type: none;
 }
 
 @media all and (min-width: 600px) {
@@ -61,8 +90,13 @@ p{
         flex: 1 0 0;
     }
 }
+@media all and (max-width: 600px) {
+    ol {
+        font-size: 1.5em;
+    }
+}
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
     .main {
         flex: 3 0px;
     }
@@ -82,8 +116,4 @@ p{
     .footer {
         order: 4;
     }
-}
-ol{
-    text-size-adjust: auto;
-    list-style-type: none;
 }
